@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You're Getting Old - Game Board</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div id="character-selection">
+        <!-- Title Graphic -->
+        <div id="title-container">
+            <img id="title-graphic" src="images/game/game-title.jpg" alt="Game Title">
+        </div>
+        <h1>Select Your Character</h1>
+        <div id="characters">
+            <!-- Character tiles will be dynamically populated -->
+        </div>
+    </div>
+    <div id="game-board" style="display: none;">
+        <!-- Title Graphic -->
+        <div id="title-container">
+            <img id="title-graphic" src="images/game/game-title.jpg" alt="Game Title">
+        </div>
+
+        <!-- Game Board -->
+        <div id="game-container">
+            <img id="game-board-img" src="images/game/game-board.jpg" alt="Game Board">
+            <img id="character-img" src="" alt="Character Tile">
+        </div>
+        <div id="controls">
+            <button id="move-up">I'm Old</button>
+            <button id="move-down">I'm Redeemed</button>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+    
+    <!-- Modal Overlay -->
+    <div id="modal" style="display: none;">
+        <div id="modal-content">
+            <p id="modal-text">"You're officially old!"</p>
+            <button id="modal-close">Acknowledge</button>
+        </div>
+    </div>
+</body>
+
+</html>
